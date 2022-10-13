@@ -1,6 +1,6 @@
 {
   "name": "patika.dev-odev5-button-component",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "description": "This project for educational purposes not for the production.",
   "dependencies": {
