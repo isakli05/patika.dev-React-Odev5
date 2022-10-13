@@ -1,0 +1,64 @@
+[class^="btn"] {
+  padding: 4px 15px;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  line-height: 1.5715;
+  font-weight: 400;
+  white-space: nowrap;
+  user-select: none;
+  height: 32px;
+  font-size: 14px;
+  
+}
+
+.btn-primary {
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.btn-primary:hover{
+  color: #fff;
+    border-color: #40a9ff;
+    background: #40a9ff;
+}
+
+.btn-dashed {
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #d9d9d9;
+  background: #fff;
+  border-style: dashed;
+}
+
+.btn-dashed:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+  background: #fff;
+}
+
+.btn-text {
+  color: rgba(0, 0, 0, 0.85);
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-text:hover {
+  color: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.018);
+  border-color: transparent;
+}
+
+.btn-link {
+  color: #1890ff;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
